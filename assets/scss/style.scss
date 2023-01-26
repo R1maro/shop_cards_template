@@ -1,0 +1,30 @@
+.direction{
+  text-align: center;
+  font-size: 12px;
+  a{
+    text-decoration: none;
+    color: dimgray;
+  }
+  form{
+    float: left;
+    select{
+      width: 150px;
+      outline: none;
+      border-bottom: none;
+    }
+  }
+}
+.divider{
+  width: 40px;
+  height: 3px;
+  background: gray;
+  float: right;
+}
+.aside{
+  a{
+    text-decoration: none;
+    float: right;
+    font-size: 14px;
+    color: dimgray;
+  }
+}
