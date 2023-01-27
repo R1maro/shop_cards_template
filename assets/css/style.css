@@ -18,15 +18,36 @@
 .divider {
   width: 40px;
   height: 3px;
-  background: gray;
-  float: right;
+  background: dimgray;
+  opacity: 40%;
+  margin: 6px 0 6px 0;
 }
 
+@media screen and (max-width: 755px) {
+  .aside {
+    display: none;
+  }
+}
 .aside a {
   text-decoration: none;
-  float: right;
   font-size: 14px;
   color: dimgray;
+  height: 20px;
+}
+
+.hr-style {
+  width: 90%;
+  border-bottom: dimgray 1px solid;
+  opacity: 20%;
+  margin: 5px 0 5px 0;
+}
+
+.body-card .custom-img {
+  height: 590px;
+}
+.body-card div {
+  text-align: center;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
