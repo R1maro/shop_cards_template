@@ -17,7 +17,7 @@
       border-bottom: none;
     }
   }
-}
+};
 
 //direction line style end
 
@@ -29,7 +29,7 @@
   background: dimgray;
   opacity: 40%;
   margin: 6px 0 6px 0;
-}
+};
 
 .aside {
   @media screen and (max-width: 755px) {
@@ -42,26 +42,32 @@
     color: dimgray;
     height: 20px;
   }
-}
+};
 
 .hr-style { //custom <hr>
   width: 90%;
   border-bottom: dimgray 1px solid;
   opacity: 20%;
   margin: 5px 0 5px 0;
-}
+};
 
 //aside style end
 
 
 //body style start
 
-.body-card {
-  .custom-img {
-    height: 590px;
+
+.row .custom-img {
+  height: 590px;
+  width: 506px;
+  transition: 666ms;
+
+  &:hover {
+    opacity: 0;
   }
-  div{
-    text-align: center;
-    font-size: 12px;
-  }
-}
+};
+
+.price {
+  text-align: center;
+  font-size: 12px;
+};

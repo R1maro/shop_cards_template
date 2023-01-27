@@ -42,10 +42,16 @@
   margin: 5px 0 5px 0;
 }
 
-.body-card .custom-img {
+.row .custom-img {
   height: 590px;
+  width: 506px;
+  transition: 666ms;
 }
-.body-card div {
+.row .custom-img:hover {
+  opacity: 0;
+}
+
+.price {
   text-align: center;
   font-size: 12px;
 }
